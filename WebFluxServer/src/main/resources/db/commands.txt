@@ -1,0 +1,4 @@
+docker build -t goods-db-image .
+docker images
+docker run -p 5432:5432 --name goods-db -d goods-db-image
+docker ps --all

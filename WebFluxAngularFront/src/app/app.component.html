@@ -1,0 +1,61 @@
+@for (good of goods; track good) {
+  @if (good != undefined) {
+  <div>
+      <span>{{good.name}}</span><br>
+      <span>{{good.description}}</span><br>
+      <span>{{good.image}}</span><br>
+  </div>
+    } @else {
+    <div>
+      <span>Loading...</span>
+    </div>
+    }
+  <br>
+}
+
+<!--{{goods.length}}-->
+
+<label for="goodId">ID: </label>
+<!--<input id="goodId" type="number" #goodId (click)="getGood(Number.parseInt(goodId.value))" value="1">-->
+<input id="goodId" type="number" #goodId (input)="getGood(Number.parseInt(goodId.value ? goodId.value : '0'))" value="1" min="0">
+
+<br>
+<br>
+-------------------------------
+<br>
+  @if (good) {
+
+    <div>
+    <span>{{good.name}}</span><br>
+    <span>{{good.description}}</span><br>
+    <span>{{good.image}}</span><br>
+    </div>
+  }
+<br>
+-------------------------------
+<br>
+<br>
+
+<label for="goodName">Good NAME: </label>
+<input id="goodName" type="text" [(ngModel)]="goodName"><br>
+
+<label for="goodDescription">Good DESCRIPTION: </label>
+<input id="goodDescription" type="text" [(ngModel)]="goodDescription"><br>
+
+<label for="goodImage">Good IMAGE: </label>
+<input id="goodImage" type="text" [(ngModel)]="goodImage" value="placeholder.png" disabled="true"><br>
+
+<br>
+<br>
+<button (click)="saveGood()">Save</button><br>
+<button (click)="updateGood(Number.parseInt(goodId.value))">Update</button><br>
+<button (click)="deleteGood(Number.parseInt(goodId.value))">Delete</button><br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<button (click)="getGoodsTest()">Get All</button><br>
