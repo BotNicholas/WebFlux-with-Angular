@@ -16,6 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+import java.time.Duration;
+
 @CrossOrigin
 @RestController
 @RequestMapping("/goods")
@@ -27,8 +29,18 @@ public class GoodsController {
     this.goodService = goodService;
   }
 
+  @GetMapping("/test/flux")
+  public Flux<String> testFlux() {
+    return Flux.interval(Duration.ofSeconds(2)).map(seq -> "data: " + seq);
+  }
+
+  @GetMapping("/test/mono")
+  public Mono<String> testMono() {
+    return Mono.just(Duration.ofSeconds(2)).map(seq -> "data: " + seq).delayElement(Duration.ofSeconds(2));
+  }
+
   @GetMapping(produces = MediaType.TEXT_EVENT_STREAM_VALUE)
-  public Flux<Good> getGoods() {
+  public Flux<Good> getGoods() throws InterruptedException {
     return goodService.getAllGoods()
         .doOnCancel(() -> System.out.println("Client Canceled subscription!"))
         .doOnComplete(() -> System.out.println("Subscription Completed!"));

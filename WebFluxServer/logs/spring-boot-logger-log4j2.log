@@ -1,125 +1,24 @@
-2025-03-14 09:31:48,111 INFO StartupInfoLogger [main] Starting WebFluxServerApplication using Java 17.0.11 with PID 25432 (C:\Users\crme112\OneDrive - ION\Desktop\WebFlux and Angular\WebFluxServer\target\classes started by crme112 in C:\Users\crme112\OneDrive - ION\Desktop\WebFlux and Angular\WebFluxServer)
-2025-03-14 09:31:48,112 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2025-03-14 09:31:48,676 INFO RepositoryConfigurationDelegate [main] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
-2025-03-14 09:31:48,796 INFO RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 108 ms. Found 1 R2DBC repository interface.
-2025-03-14 09:31:50,171 INFO NettyWebServer [main] Netty started on port 8080 (http)
-2025-03-14 09:31:50,186 INFO StartupInfoLogger [main] Started WebFluxServerApplication in 2.432 seconds (process running for 4.023)
-2025-03-14 09:33:12,534 INFO GoodService [reactor-http-nio-9] Get all goods
-2025-03-14 09:33:16,415 INFO GoodService [reactor-http-nio-9] Get all goods
-2025-03-14 09:38:30,715 INFO GoodService [reactor-http-nio-4] Get all goods
-2025-03-14 09:38:33,830 INFO GoodService [reactor-http-nio-4] Get all goods
-2025-03-14 09:41:34,945 INFO GoodService [reactor-http-nio-5] Get all goods
-2025-03-14 09:41:38,069 INFO GoodService [reactor-http-nio-5] Get all goods
-2025-03-14 09:43:23,078 INFO GoodService [reactor-http-nio-8] Get all goods
-2025-03-14 09:43:23,820 INFO GoodService [reactor-http-nio-8] Get all goods
-2025-03-14 09:43:26,879 INFO GoodService [reactor-http-nio-8] Get all goods
-2025-03-14 09:44:17,794 INFO GoodService [reactor-http-nio-9] Get all goods
-2025-03-14 09:44:20,919 INFO GoodService [reactor-http-nio-9] Get all goods
-2025-03-14 09:44:27,944 INFO GoodService [reactor-http-nio-10] Get all goods
-2025-03-14 09:44:31,111 INFO GoodService [reactor-http-nio-10] Get all goods
-2025-03-14 09:44:37,452 INFO GoodService [reactor-http-nio-11] Get all goods
-2025-03-14 09:44:40,586 INFO GoodService [reactor-http-nio-11] Get all goods
-2025-03-14 09:45:51,612 INFO GoodService [reactor-http-nio-12] Get all goods
-2025-03-14 09:45:54,842 INFO GoodService [reactor-http-nio-12] Get all goods
-2025-03-14 09:46:35,218 INFO GoodService [reactor-http-nio-1] Get all goods
-2025-03-14 09:46:38,339 INFO GoodService [reactor-http-nio-1] Get all goods
-2025-03-14 09:46:40,854 INFO GoodService [reactor-http-nio-2] Get all goods
-2025-03-14 09:46:43,966 INFO GoodService [reactor-http-nio-2] Get all goods
-2025-03-14 09:53:17,112 INFO GoodService [reactor-http-nio-5] Get all goods
-2025-03-14 09:53:20,154 INFO GoodService [reactor-http-nio-5] Get all goods
-2025-03-14 09:57:51,046 INFO GoodService [reactor-http-nio-7] Get all goods
-2025-03-14 09:57:54,104 INFO GoodService [reactor-http-nio-7] Get all goods
-2025-03-14 10:42:11,050 INFO GoodService [reactor-http-nio-3] Get all goods
-2025-03-14 10:42:14,352 INFO GoodService [reactor-http-nio-3] Get all goods
-2025-03-14 10:45:39,276 INFO GoodService [reactor-http-nio-3] Get all goods
-2025-03-14 10:45:42,350 INFO GoodService [reactor-http-nio-3] Get all goods
-2025-03-14 10:54:35,945 INFO GoodService [reactor-http-nio-4] Get all goods
-2025-03-14 10:54:38,983 INFO GoodService [reactor-http-nio-4] Get all goods
-2025-03-14 10:54:39,429 INFO GoodService [reactor-http-nio-5] Get all goods
-2025-03-14 10:54:40,646 INFO GoodService [reactor-http-nio-5] Get all goods
-2025-03-14 10:54:43,801 INFO GoodService [reactor-http-nio-5] Get all goods
-2025-03-14 11:06:38,703 INFO GoodService [reactor-http-nio-6] Get good 1
-2025-03-14 11:06:40,094 INFO GoodService [reactor-http-nio-6] Get good 2
-2025-03-14 11:06:41,246 INFO GoodService [reactor-http-nio-6] Get good 1
-2025-03-14 11:06:41,417 INFO GoodService [reactor-http-nio-6] Get good 0
-2025-03-14 11:06:42,273 INFO GoodService [reactor-http-nio-6] Get good 1
-2025-03-14 11:08:00,311 INFO GoodService [reactor-http-nio-6] Get good 1
-2025-03-14 11:08:01,222 INFO GoodService [reactor-http-nio-6] Get good 2
-2025-03-14 11:08:02,106 INFO GoodService [reactor-http-nio-6] Get good 1
-2025-03-14 11:08:02,298 INFO GoodService [reactor-http-nio-6] Get good 0
-2025-03-14 11:08:34,482 INFO GoodService [reactor-http-nio-6] Get all goods
-2025-03-14 11:08:37,569 INFO GoodService [reactor-http-nio-6] Get all goods
-2025-03-14 11:08:38,090 INFO GoodService [reactor-http-nio-7] Get good 1
-2025-03-14 11:08:38,878 INFO GoodService [reactor-http-nio-7] Get good 0
-2025-03-14 11:09:01,662 INFO GoodService [reactor-http-nio-7] Get good 1
-2025-03-14 11:09:02,532 INFO GoodService [reactor-http-nio-7] Get good 2
-2025-03-14 11:09:04,028 INFO GoodService [reactor-http-nio-7] Get good 1
-2025-03-14 11:09:04,207 INFO GoodService [reactor-http-nio-7] Get good 0
-2025-03-14 11:09:26,298 INFO GoodService [reactor-http-nio-7] Get good 1
-2025-03-14 11:09:40,420 INFO GoodService [reactor-http-nio-7] Get good 1
-2025-03-14 11:09:41,438 INFO GoodService [reactor-http-nio-7] Get good 2
-2025-03-14 11:09:41,990 INFO GoodService [reactor-http-nio-7] Get good 1
-2025-03-14 11:09:42,160 INFO GoodService [reactor-http-nio-7] Get good 0
-2025-03-14 11:09:43,414 INFO GoodService [reactor-http-nio-7] Get good 1
-2025-03-14 11:22:58,882 INFO GoodService [reactor-http-nio-9] Get all goods
-2025-03-14 11:23:02,013 INFO GoodService [reactor-http-nio-9] Get all goods
-2025-03-14 11:23:04,694 INFO GoodService [reactor-http-nio-10] Get good 1
-2025-03-14 11:23:13,053 INFO GoodService [reactor-http-nio-10] Get all goods
-2025-03-14 11:23:16,082 INFO GoodService [reactor-http-nio-10] Get all goods
-2025-03-14 11:23:30,734 INFO GoodService [reactor-http-nio-11] Get good 1
-2025-03-14 11:23:31,543 INFO GoodService [reactor-http-nio-11] Get good 2
-2025-03-14 11:23:32,154 INFO GoodService [reactor-http-nio-11] Get good 1
-2025-03-14 11:23:32,312 INFO GoodService [reactor-http-nio-11] Get good 0
-2025-03-14 11:23:35,381 INFO GoodService [reactor-http-nio-11] Get good 1
-2025-03-14 11:23:39,489 INFO GoodService [reactor-http-nio-11] Get good 2
-2025-03-14 11:23:43,703 INFO GoodService [reactor-http-nio-11] Get good 3
-2025-03-14 11:23:44,840 INFO GoodService [reactor-http-nio-11] Get good 4
-2025-03-14 11:23:45,326 INFO GoodService [reactor-http-nio-11] Get good 5
-2025-03-14 11:23:45,750 INFO GoodService [reactor-http-nio-11] Get good 6
-2025-03-14 11:23:47,037 INFO GoodService [reactor-http-nio-11] Get good 7
-2025-03-14 11:23:47,305 INFO GoodService [reactor-http-nio-11] Get good 8
-2025-03-14 11:23:47,571 INFO GoodService [reactor-http-nio-11] Get good 9
-2025-03-14 11:23:47,842 INFO GoodService [reactor-http-nio-11] Get good 10
-2025-03-14 11:23:48,042 INFO GoodService [reactor-http-nio-11] Get good 11
-2025-03-14 11:23:48,226 INFO GoodService [reactor-http-nio-11] Get good 12
-2025-03-14 11:23:48,474 INFO GoodService [reactor-http-nio-11] Get good 11
-2025-03-14 11:23:48,989 INFO GoodService [reactor-http-nio-11] Get good 10
-2025-03-14 11:23:49,019 INFO GoodService [reactor-http-nio-11] Get good 9
-2025-03-14 11:23:49,045 INFO GoodService [reactor-http-nio-11] Get good 8
-2025-03-14 11:23:49,077 INFO GoodService [reactor-http-nio-11] Get good 7
-2025-03-14 11:23:49,110 INFO GoodService [reactor-http-nio-11] Get good 6
-2025-03-14 11:23:49,140 INFO GoodService [reactor-http-nio-11] Get good 5
-2025-03-14 11:23:49,192 INFO GoodService [reactor-http-nio-11] Get good 4
-2025-03-14 11:23:49,220 INFO GoodService [reactor-http-nio-11] Get good 3
-2025-03-14 11:23:49,251 INFO GoodService [reactor-http-nio-11] Get good 2
-2025-03-14 11:23:49,281 INFO GoodService [reactor-http-nio-11] Get good 1
-2025-03-14 11:23:49,311 INFO GoodService [reactor-http-nio-11] Get good 0
-2025-03-14 11:23:52,613 INFO GoodService [reactor-http-nio-11] Create good Good(id=null, name=test, description=test description, image=placeholder.png)
-2025-03-14 11:23:52,676 INFO GoodService [reactor-http-nio-11] Get all goods
-2025-03-14 11:23:55,704 INFO GoodService [reactor-http-nio-11] Get all goods
-2025-03-14 11:24:02,809 INFO GoodService [reactor-http-nio-12] Get all goods
-2025-03-14 11:24:05,936 INFO GoodService [reactor-http-nio-12] Get all goods
-2025-03-14 11:24:18,853 INFO GoodService [reactor-http-nio-1] Get good 9
-2025-03-14 11:24:20,365 INFO GoodService [reactor-http-nio-1] Get good 10
-2025-03-14 11:24:27,453 INFO GoodService [reactor-http-nio-1] Update good 10 to Good(id=null, name=test123, description=test description123, image=placeholder.png)
-2025-03-14 11:24:27,531 INFO GoodService [reactor-http-nio-1] Get all goods
-2025-03-14 11:24:30,555 INFO GoodService [reactor-http-nio-1] Get all goods
-2025-03-14 11:24:38,722 INFO GoodService [reactor-http-nio-3] Create good Good(id=null, name=test12311111, description=test description123111111, image=placeholder.png)
-2025-03-14 11:24:38,738 INFO GoodService [reactor-http-nio-3] Get all goods
-2025-03-14 11:24:41,762 INFO GoodService [reactor-http-nio-3] Get all goods
-2025-03-14 11:24:43,824 INFO GoodService [reactor-http-nio-4] Get good 11
-2025-03-14 11:24:53,275 INFO GoodService [reactor-http-nio-4] Update good 11 to Good(id=null, name=ABC, description=ABC, image=placeholder.png)
-2025-03-14 11:24:53,299 INFO GoodService [reactor-http-nio-4] Get all goods
-2025-03-14 11:24:56,325 INFO GoodService [reactor-http-nio-4] Get all goods
-2025-03-14 11:24:57,153 INFO GoodService [reactor-http-nio-5] Delete good 11
-2025-03-14 11:24:57,176 INFO GoodService [reactor-http-nio-5] Get all goods
-2025-03-14 11:25:00,199 INFO GoodService [reactor-http-nio-5] Get all goods
-2025-03-14 11:25:00,401 INFO GoodService [reactor-http-nio-6] Get good 10
-2025-03-14 11:25:01,500 INFO GoodService [reactor-http-nio-6] Delete good 10
-2025-03-14 11:25:01,516 INFO GoodService [reactor-http-nio-6] Get all goods
-2025-03-14 11:25:04,545 INFO GoodService [reactor-http-nio-6] Get all goods
-2025-03-14 11:25:05,481 INFO GoodService [reactor-http-nio-7] Create good Good(id=null, name=ABC, description=ABC, image=placeholder.png)
-2025-03-14 11:25:05,503 INFO GoodService [reactor-http-nio-7] Get all goods
-2025-03-14 11:25:08,542 INFO GoodService [reactor-http-nio-7] Get all goods
-2025-03-14 11:25:32,486 INFO GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-14 11:25:32,493 INFO GracefulShutdown [netty-shutdown] Graceful shutdown complete
+2025-05-07 17:03:47,305 INFO StartupInfoLogger [main] Starting WebFluxServerApplication using Java 17.0.13 with PID 33208 (A:\Desktop\WebFlux-with-Angular\WebFluxServer\target\classes started by Nicholas in A:\Desktop\WebFlux-with-Angular\WebFluxServer)
+2025-05-07 17:03:47,307 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-05-07 17:03:47,794 INFO RepositoryConfigurationDelegate [main] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-05-07 17:03:47,894 INFO RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 89 ms. Found 1 R2DBC repository interface.
+2025-05-07 17:03:48,838 INFO NettyWebServer [main] Netty started on port 8888 (http)
+2025-05-07 17:03:48,850 INFO StartupInfoLogger [main] Started WebFluxServerApplication in 1.821 seconds (process running for 2.8)
+2025-05-07 17:42:06,660 WARN Loggers$Slf4JLogger [reactor-http-nio-2] [681437d6-1, L:/[0:0:0:0:0:0:0:1]:8888 - R:/[0:0:0:0:0:0:0:1]:51069] An exception has been observed post termination
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796) [netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732) [netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658) [netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) [netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2025-05-07 23:54:54,319 INFO GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-07 23:54:54,329 INFO GracefulShutdown [netty-shutdown] Graceful shutdown complete

@@ -23,9 +23,16 @@ public class GoodService {
     return goodRepo.findById(id);
   }
 
-  public Flux<Good> getAllGoods() {
+  public Flux<Good> getAllGoods() throws InterruptedException {
     log.info("Get all goods");
-    return goodRepo.findAll();
+    return goodRepo.findAll().map(g -> {
+        try {
+            Thread.currentThread().sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        return g;
+    });
   }
 
   public Mono<Good> createGood(Good good) {
